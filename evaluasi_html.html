@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Bagian Satu -->
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body style="background-color: lightgoldenrodyellow;">
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>
+        Halaman ini dibuat untuk mengevaluasi pemahaman dasar tentang struktur dan pengelolaan teks dalam HTML.
+    </p>
+    <!-- Bagian Dua -->
+    <h2>Pengelolaan Teks</h2>
+    <p>
+        Dalam pengelolaan teks, penting untuk menggunakan <strong>format yang jelas</strong> dan <em>gaya yang sesuai</em> agar pesan yang disampaikan menjadi efektif.
+    </p>
+    <hr>
+    <blockquote>
+        "Hidup adalah 10% apa yang terjadi pada Anda dan 90% bagaimana Anda meresponsnya." - Charles R. Swindoll
+    </blockquote>
+    <!-- Bagian Tiga -->
+    <h2>Hyperlink dan Gambar</h2>
+    <p>
+        Kunjungi situs web favorit saya di <a href="https://www.example.com">Example</a> untuk lebih banyak informasi.
+    </p>
+    <p>
+        Berikut adalah gambar yang saya sukai:
+        <a href="https://www.example.com">
+            <img src="C:\Users\azser\OneDrive\Pictures\81066aa244b5dea0f60de12f844805b3.jpg" alt="Contoh Gambar">
+        </a>
+    </p>
+    <!-- Bagian Empat -->
+    <h2>Membuat Daftar</h2>
+    <p>Hal-hal yang ingin saya capai dalam satu tahun ke depan:</p>
+    <ol>
+        <li>Menulis sebuah buku</li>
+        <li>Memulai usaha baru</li>
+        <li>Belajar bahasa asing baru</li>
+    </ol>
+    <p>Hobi atau aktivitas yang saya sukai:</p>
+    <ul>
+        <li>Menonton drama korea </li>
+        <li>Mendengarkan lagu </li>
+        <li>Hicking </li>
+    </ul>
+    <!-- Bagian Lima -->
+    <h2>Tabel Data</h2>
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Servinia</td>
+            <td>25</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>Vivi</td>
+            <td>30</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Nia</td>
+            <td>28</td>
+            <td>Surabaya</td>
+        </tr>
+    </table>
+    <!-- Bagian Enam -->
+    <h2>Formulir Pendaftaran</h2>
+    <form action="/submit" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="gender" value="Pria">
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="gender" value="Wanita">
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="kota">Kota Tempat Tinggal:</label><br>
+        <select id="kota" name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="surabaya">Surabaya</option>
+        </select><br><br>
+
+        <input type="checkbox" id="syarat" name="syarat">
+        <label for="syarat">Saya menyetujui syarat dan ketentuan</label><br><br>
+
+        <label for="pesan">Pesan atau Komentar:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
